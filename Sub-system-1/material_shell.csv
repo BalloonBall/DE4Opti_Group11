@@ -1,0 +1,13 @@
+Name,Price(GBP/kg),Density(kg/m^3),Yield_strength(Pa),Elastic_stored_energy(J/m^3),Primary_embodied _energy(J/kg),Primary_CO2E(kg/kg)
+ABS(extrusion),2.46,1080,29600000,182000,96700000,3.61
+ABS(flame_retarded_extrusion),3.36,1210,27600000,177000,110000000,4.08
+ABS(heat_resistant_injection),2.46,1080,29600000,206000,96700000,3.61
+ABS(high_impact_injection),2.46,1050,18500000,111000,96700000,3.61
+ABS(injection_platable),2.46,1070,42000000,356000,96700000,3.61
+ABS(medium_impact_injection),2.46,1060,34500000,251000,96700000,3.61
+ABS(rubber_modified_injection_extrusion),2.92,1190,40100000,376000,112000000,3.99
+ABS(transparent_injection),2.46,1090,32000000,257000,96700000,3.61
+ABS_PA,3.9,1090,28500000,305000,122000000,6.02
+ABS_PC(flame_retarded),4.03,1230,53100000,493000,110000000,5.43
+ABC_PC(injection_extrusion),3.17,1150,24100000,128000,107000000,5.11
+ABS_PVC,3.57,1250,29600000,186000,87100000,4.06
