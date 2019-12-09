@@ -20,11 +20,13 @@ Material_Liner(TFall1,:)=[];
 
 % import material properties of liner and shell into arrays
 % Liner
+C_l = Material_Liner(:,1);
 rho_l = Material_Liner(:,2);
 sigma_l = Material_Liner(:,3);
 EE_l = Material_Liner(:,5);
 CO2e_l = Material_Liner(:,6);
 % Shell
+C_s = Material_Shell(:,1);
 rho_s = Material_Shell(:,2);
 ESE_s = Material_Shell(:,3);
 EE_s = Material_Shell(:,5);
@@ -37,16 +39,16 @@ global Beta1 Beta2 Beta3 Beta4 Beta5 Beta6
 % Liner
 Beta1 = polyfit(rho_l,sigma_l,2);
 Beta2 = polyfit(rho_l,EE_l,1);
-Beta3 = polyfit(rho_l,CO2e_l,1);
+Beta3 = polyfit(EE_l,C_l,1);
 % Shell
 Beta4 = polyfit(rho_s,ESE_s,2);
 Beta5 = polyfit(rho_s,EE_s,2);
-Beta6 = polyfit(rho_s,CO2e_s,2);
+Beta6 = polyfit(EE_s,C_s,1);
 %% Define parameters
 global v0 mh r
-v0 = 5;
+v0 = 5.52;
 mh = 5;
-r = 0.08;
+r = 0.09;
 %% Optimisation - Interior-point
 tic
 x0 = [0.02 22 0.005 1050];
