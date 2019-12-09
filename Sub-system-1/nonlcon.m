@@ -2,7 +2,7 @@
 % c(1)maximum liner deflection
 % c(2)total mass
 % c(3)total embodied energy
-% c(4)total CO2 footprint
+% c(4)total cost of material
 
 function [c,ceq] = nonlcon(x)
 global Beta1 Beta2 Beta3 Beta4 Beta5 Beta6 v0 mh r
