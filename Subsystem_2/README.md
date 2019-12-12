@@ -10,13 +10,19 @@ The subsystem_2.m MATLAB script should be run.
 
 Execution time
 -------
+Processor: AMD Ryzen PRO 3300U 2.10GHz,
+
+System: Windows 10 Home
+
+Execution time
+-------
+
 The execution time is approximately 35 seconds.
 
 - 5 seconds for data import and processing;
 - 29.80 seconds for interior-point method.
 - 1.032 seconds for SQP method.
 - 0.6824 seconds for active-set method.
-
 
 Dependencies
 -------
