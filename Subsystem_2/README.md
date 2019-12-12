@@ -1,16 +1,16 @@
 Subsystem_2 Safety
 =======
 
-*Safety*
+*Minimising peak linear acceleration in helmet impact testing*
 
 
 Main script 
 -------
 The subsystem_2.m MATLAB script should be run.
 
-Execution time
+Execution Environment
 -------
-Processor: AMD Ryzen PRO 3300U 2.10GHz,
+Processor: AMD Ryzen PRO 3300U 2.10GHz
 
 System: Windows 10 Home
 
