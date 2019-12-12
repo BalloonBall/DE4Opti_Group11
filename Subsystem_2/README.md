@@ -1,4 +1,4 @@
-This is the README for the Subsystem_1
+Subsystem_2 Safety
 =======
 
 *Safety*
@@ -6,7 +6,7 @@ This is the README for the Subsystem_1
 
 Main script 
 -------
-The subsystem_1.m MATLAB script should be run.
+The subsystem_2.m MATLAB script should be run.
 
 Execution time
 -------
